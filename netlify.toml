@@ -1,5 +1,6 @@
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Basic-Auth = "user bGVyYmVybWF0dF0ddPdXJuaGFsbGUtTWVuc2EtTGVobWFubFubjiwMjY="
-    
+[[redirects]]
+  from = "/*"
+  status = 200
+  force = true
+  [redirects.headers]
+    Basic-Auth = "user:bGVyYmVybWF0dGxlZTJGakpuaGFGSEgUTWVuc2EtTG9naW5FubFubjiwMjY="
