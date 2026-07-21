@@ -8,3 +8,22 @@ div#wrapper {
     background-color: white;
     color: black;
 }
+
+address {
+    text-align: center;
+    font-size: 85%;
+    font-style: normal;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+main a {
+    text-decoration: underline;
+}
+
+a:link { color: #d90000;}
+a:visited { color: #cc6666;}
