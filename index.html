@@ -9,19 +9,23 @@
     </style>
 </head>
 <body>
-    <h1>Willkommen seist Du bei der Seite von E. Lehmann, Gymnasium Lerbermatt</h1>
-    <p>Hier finden Sie bald einmal Unterrichtsmaterial.</p>
-    <p>Ein grosser Dank geht raus an Daniel Hofer!</p>
-    <h2>Bitte das im Unterricht verteilte Passwort eingeben:</h2>
-    <input type="password" id="passwordInput">
-    <button onclick="checkPassword()">Weiter</button>
+    <header>Gymnasium Lerbermatt, Informatik E. Lehmann</header>
+    <nav></nav>
+    <main>
+        <h1>Willkommen seist Du bei der Seite von E. Lehmann, Gymnasium Lerbermatt</h1>
+        <p>Hier finden Sie bald einmal Unterrichtsmaterial.</p>
+        <p>Ein grosser <em>Dank</em> geht raus an Daniel Hofer!</p>
+        <h2>Bitte das <strong></strong>im Unterricht verteilte Passwort</strong> eingeben:</h2>
+        <input type="password" id="passwordInput">
+        <button onclick="checkPassword()">Weiter</button>
 
-    <script>
-        function checkPassword() {
-            const password = document.getElementById('passwordInput').value;
-            // Leitet direkt an passwort.html weiter
-            window.location.href = password + ".html";
-        }
-    </script>
+        <script>
+            function checkPassword() {
+                const password = document.getElementById('passwordInput').value;
+                // Leitet direkt an passwort.html weiter
+                window.location.href = password + ".html";
+            }
+        </script>
+    </main>
 </body>
 </html>
